@@ -1,4 +1,5 @@
 import 'package:clip_wscube/backdrop_page.dart';
+import 'package:clip_wscube/clip_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BackdropPage(),
+      home: const ClipPage(),
     );
   }
 }
